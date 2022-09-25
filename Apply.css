@@ -1,0 +1,95 @@
+h2{
+    color: rebeccapurple;
+    box-shadow: 12px 12px 23px golden;
+}
+body{
+    color: red;
+}
+.Hobies{
+    color:darkblue;
+    
+    height: 23px;
+    width: 47px;
+}
+
+ 
+
+.button{
+    color: aliceblue;
+    background-color: black;
+}
+.male{
+    color: gray;
+    background-color: dark green;
+}
+.document{
+    color: dodgerblue;
+}
+#para{
+    color: white;
+    background-color: green;
+    border: 1px solid red;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-overflow: clip;
+}
+@keyframes example{
+    0%{
+        background-color: aqua;
+    }
+    12%{
+        background-color: yellow;
+    }
+    11%{
+        background-color: red;
+    }
+}
+.name{
+    color: darkgreen;
+}
+
+.form{
+    
+    background: url("https://i.pinimg.com/736x/5d/2d/83/5d2d83811c171ada0c601418e985f1df.jpg")
+}
+.input{
+    color: white;
+    background-color: black;
+}
+
+
+
+
+.join{
+    font-size: 60px;
+    color: blanchedalmond;
+    margin: 30px;
+    background-color:darkblue;
+    animation-name: join;
+    animation-iteration-count: infinite;
+    text-overflow: clip;
+    animation-duration: 21s;
+    border: 2px solid blue;
+    padding: 30px 21px;
+   text-align: center;
+    border-radius: 10px;
+
+}
+@keyframes join{
+    0%{
+        background-color: aqua;
+    }
+    12%{
+        background-color: yellow;
+    }
+    11%{
+        background-color: red;
+    }
+    12%{
+        color: red;
+    }
+    11%{
+        background-color: chartreuse;
+    }
+}
